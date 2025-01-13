@@ -1,0 +1,73 @@
+.first-img {
+    width: 100vw;
+}
+
+.fbox{
+    color:white;
+}
+
+footer{
+    background-color: navy;
+}
+
+.fline{
+    border-bottom: 1px solid white;
+}
+
+.ffline a{
+    color:white;
+    text-decoration: none;
+}
+
+.tline{
+    display:none;
+    color:white;
+}
+
+.row{
+    color:white;
+}
+
+.card{
+    color:black;
+}
+
+.container{
+    color:white;
+}
+
+.second-line a {
+    color: white;
+    text-decoration: none;
+}
+.btn-outline-success {
+        color: navy;
+        border-color: navy;
+      }
+      .btn-outline-success:hover {
+        background-color: navy;
+        color: white;
+        border-color: Navy;
+      }
+
+
+@media screen and (max-width:48rem){
+    .fline{
+        text-align:center;
+    }
+
+    .ffline{
+        padding-left:2rem;
+        padding-right:2rem;
+        border-bottom: 1px solid white;
+    }
+
+    .tline{
+        display:block;
+        
+    }
+}
+    
+    .container{
+        color:white;
+    }
