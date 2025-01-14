@@ -10,11 +10,11 @@ footer{
     background-color: navy;
 }
 
-.fline{
+.first-line{
     border-bottom: 1px solid white;
 }
 
-.ffline a{
+.second-line a{
     color:white;
     text-decoration: none;
 }
@@ -33,8 +33,16 @@ footer{
 }
 
 .container{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
     color:white;
 }
+
 
 .second-line a {
     color: white;
@@ -50,24 +58,52 @@ footer{
         border-color: Navy;
       }
 
+.red{
+    background-color: red;
+}
 
-@media screen and (max-width:48rem){
-    .fline{
+.blue{
+    background-color: blue;
+}
+
+.font-center{
+    text-align: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.font-black{
+    color:black;
+}
+
+.font-white{
+    color: white;
+}
+
+
+@media (max-width:48rem){
+    .first-line{
         text-align:center;
     }
 
-    .ffline{
-        padding-left:2rem;
-        padding-right:2rem;
+    .second-line{
+        padding:0 2rem;
         border-bottom: 1px solid white;
+        width:100%;
+        text-align:center;
+        display:block;
     }
 
     .tline{
         display:block;
-        
     }
-}
+
+    .col{
+        padding-bottom: 1rem;
+    }
     
-    .container{
-        color:white;
-    }
+}
+
+
